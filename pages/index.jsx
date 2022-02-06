@@ -1,7 +1,7 @@
 import styles from "../styles/indexStyles.module.css";
 
 import InputTask from "../components/InputTask/InputTask.jsx";
-import Title from "../components/title/title.jsx";
+import Title from "../components/title/Title.jsx";
 import { useEffect, useState } from "react";
 import ListItems from "../components/ListItems/ListItems.jsx";
 
