@@ -1,0 +1,27 @@
+.inputTask {
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid gainsboro;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 18px;
+
+}
+
+.inputTask:focus {
+    outline: none;
+    border-color: var(--blue-color);
+}
+
+.inputTask:active {
+    outline: none;
+}
+
+.desc {
+    color: var(--blue-color);
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}

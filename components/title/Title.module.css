@@ -1,0 +1,17 @@
+.text {
+
+    color: black;
+
+}
+
+.next, .react {
+    display: inline;
+}
+
+.next {
+    color: var(--yellow-color);
+}
+
+.react {
+    color: var(--blue-color);
+}

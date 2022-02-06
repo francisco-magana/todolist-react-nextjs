@@ -1,0 +1,71 @@
+.buttonAdd {
+
+    background-color: var(--blue-color);
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin: 10px;
+
+}
+
+.buttonAdd:hover, .buttonClear:hover, .buttonDeleteComplete:hover {
+
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.buttonClear {
+    background-color: var(--yellow-color);
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.error {
+    color: #FF005C;
+    margin-bottom: 10px;
+}
+
+.buttonDeleteComplete {
+    background-color: #0A1931;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px;
+    outline: none;
+    border: 0;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+.buttonFlexer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.info {
+    font-size: 12px;
+    color: gray;
+}
+
+@media screen and (max-width: 900px) {
+
+    .buttonClear, .buttonAdd, .buttonDeleteComplete {
+        font-size: 12px;
+        padding: 10px;
+        margin: 4px;
+    }
+
+}
