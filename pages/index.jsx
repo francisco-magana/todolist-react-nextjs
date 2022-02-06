@@ -1,9 +1,9 @@
 import styles from "../styles/indexStyles.module.css";
 
-import InputTask from "../components/InputTask/InputTask";
-import Title from "../components/title/title";
+import InputTask from "../components/InputTask/InputTask.jsx";
+import Title from "../components/title/title.jsx";
 import { useEffect, useState } from "react";
-import ListItems from "../components/ListItems/ListItems";
+import ListItems from "../components/ListItems/ListItems.jsx";
 
 
 const index = () => {
