@@ -1,7 +1,7 @@
 import styles from "../styles/indexStyles.module.css";
 
 import InputTask from "../components/InputTask/InputTask.jsx";
-// import Title from "../components/title/Title.jsx";
+import Title from "../components/title/Title.jsx";
 import { useEffect, useState } from "react";
 import ListItems from "../components/ListItems/ListItems.jsx";
 
@@ -83,7 +83,7 @@ const index = () => {
   
     return (
         <>
-            {/* <Title/> */}
+            <Title/>
             <InputTask todoText={todotext} on={handleChange} placeholder="Write your todo here :)" description="Add a new todo"/>
             <div className={styles.error}>{error}</div>
             <div className={styles.buttonFlexer}>
