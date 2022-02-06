@@ -13,7 +13,7 @@ const ListItems = ({ tasks = [] , taskChange}) => {
                     task.complete = true;
                 } else {
                     toDelete = true;
-                }
+                } 
             } 
             return task;
 		});
