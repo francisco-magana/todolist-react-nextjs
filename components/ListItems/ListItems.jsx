@@ -40,7 +40,7 @@ const ListItems = ({ tasks = [] , taskChange}) => {
                         completed={tareas.complete}
 					/>
 				);
-			}) : <h3>¡No tienes pendientes! Ve a relajarte</h3>}
+			}) : <h3>Your TODO list is empty! Go and relax, well done.</h3>}
 		</ul>
 	);
 
