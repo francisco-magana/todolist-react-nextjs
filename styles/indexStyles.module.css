@@ -8,7 +8,7 @@
     border: 0;
     border-radius: 8px;
     transition: 0.3s;
-    margin: 10px;
+    margin: 10px 10px 0px 0px;
 
 }
 
@@ -53,6 +53,7 @@
     flex-wrap: wrap;
     width: 100%;
     align-items: flex-start;
+    margin-bottom: 24px;
 }
 
 .info {
