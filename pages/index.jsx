@@ -84,7 +84,7 @@ const index = () => {
     return (
         <>
             <Title/>
-            <InputTask todoText={todotext} on={handleChange} placeholder="Write your todo here :)" description="Add a new todo"/>
+            <InputTask todoText={todotext} on={handleChange} placeholder="Write your todo here." description="Add a new todo"/>
             <div className={styles.error}>{error}</div>
             <div className={styles.buttonFlexer}>
                 <button onClick={handleAddTODO} className={styles.buttonAdd}>Add TODO</button>
