@@ -2,7 +2,7 @@
 
 There are so many TODO apps out there and this one is not different. The purpose of this app is to serve as a personal project and for practice some React code on the way.
 
-## Where are my notes stored?
+## Where are my TODOs stored?
 
 Your TODOs are stored in your browser's local storage. Note that clearing your browser data will result in the loss of all content. This app is designed for managing simple information and not recommended for critical data.
 
