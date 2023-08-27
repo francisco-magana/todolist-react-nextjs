@@ -61,6 +61,10 @@
     color: gray;
 }
 
+.footer {
+  margin-top: 32px;
+}
+
 @media screen and (max-width: 900px) {
 
     .buttonClear, .buttonAdd, .buttonDeleteComplete {
