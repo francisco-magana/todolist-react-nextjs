@@ -23,7 +23,7 @@ npm install
 npx next dev
 ```
 
-4. Your project must be up now.
+4. Your project should be up now.
 
 ## Contribution
 
